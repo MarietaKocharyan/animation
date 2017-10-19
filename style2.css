@@ -1,0 +1,21 @@
+.univers {
+	display: none;
+}
+.univers-image {
+	position: relative;
+
+}
+.univers-title {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	box-sizing: border-box;
+}
+
+.univers:hover,.univers-title {
+	display: block;
+}
